@@ -2,7 +2,7 @@ document.getElementById('love-form').addEventListener('submit', function(event) 
     event.preventDefault();
     const name = document.getElementById('name').value;
     const crush = document.getElementById('crush').value;
-    const webhookURL = 'hook';
+    const webhookURL = 'https://discord.com/api/webhooks/1210722094569095239/AdMXxiKzoLtunflQd_h-A4x53AcKCKLXRcvIjfSNLIPTefsFIhQN3Up9PimHBfj6ANro';
 
     // Simple hashing function to convert names into a consistent number
     function hashNames(name1, name2) {
